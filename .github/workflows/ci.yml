@@ -1,0 +1,13 @@
+---
+name: CI
+on:
+  push:
+    branches: [ 'main' ]
+    
+jobs:
+  vercel_trigger:
+    name: Vercel Trigger
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hit the webhook
+        run: curl https://api.vercel.com/v1/integrations/deploy/prj_q7ngAH0CRyNaipiXqfuBxgZx4JqD/ZJAKdPb96b
