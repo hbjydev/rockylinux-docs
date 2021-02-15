@@ -1,2 +1,2 @@
-* Services
-    * xref:services/apache-sites-enabled.adoc[Apache sites-enabled]
+.Services
+* xref:services/apache-sites-enabled.adoc[Apache sites-enabled]
