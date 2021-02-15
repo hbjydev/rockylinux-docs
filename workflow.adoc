@@ -1,0 +1,23 @@
+= Documentation Workflow
+
+This document details the (currently proposal-only) workflow for the Rocky
+Documentation team with regards to contributing and updating the content of
+the docs.rockylinux.org site (and any statically built variants that are
+included with installations).
+
+== Contributing Documentation
+
+Documentation for the site will go into the `modules/ROOT/pages/*`
+directories. Any subdirectories of `pages/` will be present in the URL of the
+built site. For example,
+`modules/ROOT/pages/getting-started/installation.adoc` would have a URL of
+`/getting-started/installation.adoc` (relative to the versioned URL of the
+site itself).
+
+Documentation could be added to this repository in any way, though the
+recommendation is to use GitHub's native Pull Request feature, so that all
+new documentation can go under review before making it into the live docs.
+
+Documentation will be written in https://asciidoctor.org[AsciiDoc], and an
+automatic deployment process will take care of building a new version of the
+full deployed site.
