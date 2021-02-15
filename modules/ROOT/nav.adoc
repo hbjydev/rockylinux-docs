@@ -1,1 +1,1 @@
-* xref:apache-sites-enabled.adoc[Apache Web Server Multi-Site Setup]
+* xref:apache-sites-enabled.adoc[Apache sites-enabled]
