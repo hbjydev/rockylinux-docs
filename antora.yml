@@ -2,6 +2,6 @@
 name: rocky-linux
 title: Rocky Linux
 version: 8.3
-start_page: ROOT:apache-sites-enabled.adoc
+start_page: ROOT:services/apache-sites-enabled.adoc
 nav:
   - modules/ROOT/nav.adoc
