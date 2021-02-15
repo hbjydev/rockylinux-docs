@@ -14,7 +14,7 @@ perfectly adaptable to any Linux OS running Apache.
 
 * A server running Rocky Linux
 * Knowledge of the command-line and editors. (this example uses vi, but can be
-  adapted to your favorite editor)
+    adapted to your favorite editor)
 * At least basic knowledge about installing and running web services.
 
 == Install Apache
@@ -29,4 +29,18 @@ at any time. For now, we will install httpd and php, as those are almost a
 forgone conclusion:
 
 * From the command-line run `dnf install httpd php`
+
+== Add Extra Directories
+
+This method uses a couple of additional directories, but they don't currently
+exist on the system. We need to add two directories in /etc/httpd/ called
+"sites-available" and "sites-enabled."
+
+* From the command-line type `mkdir /etc/httpd/sites-available` and then
+    `mkdir /etc/httpd/sites-enabled`
+
+* We also need a directory where our sites are going to reside. This can be
+    anywhere, but a good way to keep things organized is to create a directory
+    called sub-domains. To keep things simple, put this in /var/www:
+    `mkdir /var/www/sub-domains/`
 
