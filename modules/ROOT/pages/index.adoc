@@ -2,5 +2,3 @@
 
 You've reached the landing page of the Rocky Linux documentation site. See the
 sidebar for links to the useful content.
-
-This is a testing change to show the workflow.
